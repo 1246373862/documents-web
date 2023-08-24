@@ -36,8 +36,7 @@ jobs:
         # The name of the image you would like to push
         name: 1246373862/documents-web
         # The login username for the registry
-        username: ${{secrets.DOCKER_USERNAME}}
-        # The login password for the registry
-        password: ${{secrets.DOCKER_PASSWORD}}
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PWD }}
         # tag
         tags: latest

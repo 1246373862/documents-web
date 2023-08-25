@@ -9,7 +9,7 @@ const instance = axios.create({
     // baseURL: 'http://81.69.247.172:8082',
     // baseURL: 'http://81.69.247.172:8082/api/v1.0',
     // baseURL: 'http://localhost:8082/api/v1.0',
-    baseURL: 'http://20.187.96.43:8082/api/v1.0',
+    baseURL: 'http://47.96.187.214:8082/api/v1.0',
     timeout: 100000,
     headers: {
         post: {
